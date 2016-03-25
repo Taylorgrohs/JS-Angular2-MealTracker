@@ -8,7 +8,12 @@ import { NewMealComponent } from './new-meal.component';
   directives: [MealListComponent],
   template: `
     <div class="container">
-      <h1>Meal Tracker</h1>
+      <div class="jumbotron">
+        <div class="container">
+          <h1>Meal Tracker</h1>
+        </div>
+      </div>
+      <h2 class="layout">Today you have had:</h2>
       <meal-list
       [mealList]="meals"
       (onMealSelect)="mealWasSelected($event)">

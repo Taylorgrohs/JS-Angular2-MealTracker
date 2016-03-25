@@ -1,0 +1,32 @@
+.selected {
+  font-weight: bold;
+  font-size: 2  5px;
+}
+.jumbotron {
+  text-align: center;
+  border: 1px solid red;
+}
+.selectedMeal {
+  text-decoration: underline;
+}
+.meal-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.add-meal-form {
+  margin-top: 20px;
+
+}
+.add-button {
+  margin-top: 10px;
+}
+.layout {
+  margin-left: 100px;
+}
+body {
+  background-image: url(https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwiV8NTT_drLAhUD92MKHSHbA84QjBwIBA&url=http%3A%2F%2F7-themes.com%2Fdata_images%2Fout%2F48%2F6934175-cool-white-wallpaper.jpg&bvm=bv.117868183,d.cGc&psig=AFQjCNGMMN2NARBXmUWr0vAdILbiGh-2VA&ust=1458965888699739);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: red;
+  font-size: 20px;
+}
