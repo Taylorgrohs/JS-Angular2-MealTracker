@@ -4,7 +4,10 @@
 }
 .jumbotron {
   text-align: center;
-  border: 1px solid red;
+  border: 5px solid #ecf0f1;
+  background-color: #27ae60;
+  color: #ecf0f1;
+  text-decoration: underline;
 }
 .selectedMeal {
   text-decoration: underline;
@@ -15,7 +18,7 @@
 }
 .add-meal-form {
   margin-top: 20px;
-
+margin-left: 10px;
 }
 .add-button {
   margin-top: 10px;
@@ -27,6 +30,16 @@ body {
   background-image: url(https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwiV8NTT_drLAhUD92MKHSHbA84QjBwIBA&url=http%3A%2F%2F7-themes.com%2Fdata_images%2Fout%2F48%2F6934175-cool-white-wallpaper.jpg&bvm=bv.117868183,d.cGc&psig=AFQjCNGMMN2NARBXmUWr0vAdILbiGh-2VA&ust=1458965888699739);
   background-repeat: no-repeat;
   background-size: cover;
-  color: red;
+  color: #ecf0f1;
   font-size: 20px;
+  background-color: #27ae60;
+}
+input {
+  color: black;
+}
+option, select {
+  color:black;
+}
+select {
+  margin-bottom: 10px;
 }
