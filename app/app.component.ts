@@ -19,13 +19,13 @@ import { NewMealComponent } from './new-meal.component';
 export class AppComponent {
   public meals: Meal[];
   constructor() {
-    this.meals[
+    this.meals = [
       new Meal("Muffin", "Quick breakfast", 300),
       new Meal("Chicken Tacos", "Food cart lunch", 500),
       new Meal("CheeseBurger", "Dinner", 1000)
     ];
   }
   mealWasSelected(clickedMeal: Meal): void {
-    
+
   }
 }
